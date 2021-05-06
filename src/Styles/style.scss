@@ -1,0 +1,20 @@
+$slick-font-path: '~slick-carousel/slick/fonts/';
+$slick-loader-path: '~slick-carousel/slick/';
+@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick-theme.scss';
+
+// Abstract
+@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick-theme.scss';
+@import 'abstract/constants';
+
+//Base
+
+@import 'base/base';
+
+//Layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+
+//Components
+@import 'components/home';
